@@ -11,6 +11,10 @@ body{
     width: 100% !important;
     height: 70vh;
   }
+  .nav-item:active
+  {
+    color:yellow
+  } 
 #readmore
   {
     margin-top:20px;  
@@ -20,6 +24,10 @@ body{
     border:2px solid green;
     border-radius:90px;
     background: #fff;
+  }
+  #readmore:hover{
+    background: yellow;
+
   }
   .center { 
     text-align: center; 
@@ -184,9 +192,16 @@ input.btn-purple {
 {
   background-color: green;
   width:100%;
-  height:40vh;
+  height:20vh;
 }
 
+.home-products-section h2
+{
+  color:white;
+  text-align: center;
+  padding-top: 30px;
+  font-weight: 800;
+}
 
 .description
 {
@@ -217,7 +232,6 @@ input.btn-purple {
   color:white;
 }
 .circle-icon {
-  
 
   display: inline-block;
   background-color: yellow;
@@ -227,4 +241,43 @@ input.btn-purple {
   border-top-left-radius: 50%;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
+}
+
+/** Product Cards*/
+.user-pic {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 100%;
+  margin: 20px auto 20px;
+  border-left: 3px solid #ddd;
+  border-right: 3px solid #ddd;
+  border-top: 3px solid yellow;
+  border-bottom: 3px solid yellow;
+  transform: rotate(-30deg);
+  transition: 0.5s;
+}
+.card-box:hover .user-pic {
+  transform: rotate(0deg);
+  transform: scale(1.1);
+}
+.card-box {
+  padding: 15px;
+  background-color: #fdfdfd;
+  margin: 20px 0px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  box-shadow: 0px 0px 8px 0px #d4d4d4;
+  transition: 0.5s;
+}
+.card-box:hover {
+border: 1px solid green;
+}
+.card-box p {
+  color: #808080;
+}
+
+.navbar-light .nav-item > .nav-link.active  {
+  color:#333;
+  background-color:yellow;
 }
