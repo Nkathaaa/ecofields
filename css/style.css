@@ -25,6 +25,16 @@ body{
     border-radius:90px;
     background: rgb(255, 255, 255);
   }
+  #readmore1
+  {
+ 
+    padding:5px 20px;
+    text-decoration: none;
+    color:black;
+    border:2px solid yellow;
+    border-radius:90px;
+    background: rgb(255, 255, 255);
+  }
   .viewmore a{
     justify-content: center;
     align-items: center;
@@ -46,6 +56,10 @@ body{
   background: green;
  } 
   #readmore:hover{
+    background: yellow;
+
+  }
+  #readmore1:hover{
     background: yellow;
 
   }
@@ -378,11 +392,11 @@ img {
 .overlayone{
   width:25vw;
   height: 25vh;
-
+  display: block;
   position: relative;
 }
 .overlayinn {
-  background-color: rgba(0, 182, 158, 0.7);
+  background-color: rgba(98, 243, 224, 0.7);
   height: 100%;
   width: 100%;
   opacity: 0;
@@ -397,4 +411,34 @@ img {
   transition: opacity .5s;
 }
 
+.get_more_products 
+{
+  text-decoration: none;
+  text-align:center;
+  display:block;
+  margin-bottom: 40px;
+  border:2px solid green ;
+  border-radius: 30px;
+  padding:5px 40px;
 
+}
+
+.centre_btn
+{
+  
+    background-color:yellow;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  
+}
+.guarantee
+{
+  background-color:#fff;
+}
