@@ -442,3 +442,77 @@ img {
 {
   background-color:#fff;
 }
+
+
+/**Contact Us Form */
+
+.main{
+  width: 500px;
+  margin: 50px auto;
+  border-radius: 2px;
+  border: 5px solid #333 ;
+  border-left: 10px #333;
+  box-shadow: 1px 2px 10px #555;
+}
+.info{
+  width: 100%;
+  background-color:#333;
+  padding: 7px;
+  text-shadow: 1px 1px 1px #222;
+  color: #fff;
+  font-size: 20px;
+}
+.form-box{
+  padding: 20px;
+  background-color: #eee;
+}
+label{
+  color: #333;
+  font-size: 18px;
+}
+.inp,.msg-box{
+  width: 100%;
+  padding: 10px;
+  margin-top: 4px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+ 
+  font-weight: bold;
+  color: black;
+ 
+  resize: none;
+}
+.msg-box{
+  height: 80px;
+}
+.inp:focus,.msg-box:focus{
+  outline: none;
+  border: 2px solid yellow;
+ 
+}
+.sub-btn{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  border: none;
+  background:green;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px #444;
+}
+.sub-btn:hover{
+  color:black;
+  background: linear-gradient(#00b300,#ffff00);
+  opacity: 0.8;
+  transition: all ease-out 0.2s;
+}
+.sub-btn:focus{
+  outline: none;
+}
+@media(max-width: 720px){
+  .main{
+    width: 90%;
+  }
+}
